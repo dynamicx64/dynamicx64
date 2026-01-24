@@ -3,17 +3,18 @@ hi.
 struct Attributes;
 
 impl Attributes {
-    fn contact() -> (String, String) {
-        let discord = String::from("dynamicx64");
-        let youtube = String::from("https://www.youtube.com/@dynamicx444");
+    fn contact() -> (String, String, String) {
+        let discord = String::from("dynamicx64"); 
+        let x = String::from("https://x.com/dynamicx64");
+        let youtube = String::from("https://www.youtube.com/@dynamicx64");
 
-        (discord, youtube)
+        (discord, x, youtube)
     }
 
     fn life() -> (Vec<String>, Option<i32>) {
         let langs = vec![
             String::from("English"),
-            String::from("Chinese"),
+            String::from("German"),
         ];
         let age = None;
 
@@ -26,7 +27,11 @@ impl Attributes {
         Vec<String>,
         Vec<String>,
     ) {
-        let expert = vec![String::from("python")];
+        let expert = vec![
+            String::from("python"),
+            String::from("lua"),
+            String::from("rust"),
+        ];
 
         let learning = vec![
             String::from("code obfuscation"),
@@ -40,6 +45,8 @@ impl Attributes {
         let environment = vec![
             String::from("vscode"),
             String::from("zed"),
+            String::from("visual studio"),
+            String::from("pycharm"),
         ];
 
         (expert, learning, specialities, environment)
@@ -75,6 +82,19 @@ impl Attributes {
   <img src="https://img.shields.io/badge/MSVC-000000?style=for-the-badge&logo=visual-studio&logoColor=white"/>
 </p>
 
+<h3 align="center">Socials</h3>
+<p align="center">
+  <a href="https://x.com/dynamicx6">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+  <a href="https://discord.com/users/1188241448290750495">
+    <img src="https://lanyard-profile-readme.vercel.app/api/1188241448290750495"/>
+  </a>
+  <a href="https://www.youtube.com/@dynamicx64">
+    <img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+</p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dynamicx64&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
@@ -92,7 +112,6 @@ impl Attributes {
 </p>
 
 <p align="center">
-  <sub>learning • building • repeating</sub>
+  <sub>just be doing shit</sub>
 </p>
-
 
